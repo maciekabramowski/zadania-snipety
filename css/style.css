@@ -110,3 +110,16 @@ footer.fixed-footer {
     left: 5px;
 }
 
+/* Snip10 background scaling */
+div.div-back {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/Jubilee_and_Munin,_Ravens,_Tower_of_London_2016-04-30.jpg);
+    background-size: 200px 200px;
+    transition: all 2s ease;
+    background-position: center;
+}
+
+div.div-back:hover {
+    background-size: 400px 400px;
+}
