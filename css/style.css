@@ -79,3 +79,23 @@ form.snip6 input::placeholder {
 a[href$=".doc"]{
     color: #f00;
 }
+
+/* Snip8 quote marks */
+q {
+    quotes: "\0022" "\0022";
+}
+
+q:lang(en){
+    quotes: "\002A" "\002A";
+}
+
+blockquote:before,
+blockquote:after{
+     content: '"';
+}
+
+blockquote:lang(en):before,
+blockquote:lang(en):after{
+    content: '*';
+} 
+
