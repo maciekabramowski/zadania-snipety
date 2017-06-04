@@ -107,7 +107,8 @@ blockquote:lang(en):after{
 footer.fixed-footer {
     position: fixed;
     bottom: 5px;
-    left: 5px;
+    left: 50%;
+    background-color: rgba(204, 255, 204, .8);
 }
 
 /* Snip10 background scaling */
