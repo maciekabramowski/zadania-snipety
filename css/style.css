@@ -1,3 +1,15 @@
-p {
-    color: red;
+div.outer {
+    width: 400px;
+    height: 400px;
+    background-color: #ffc205;
+    position: relative;
+}
+
+div.inner {
+    width: 200px;
+    height: 200px;
+    background-color: #e9baf2;
+    position: absolute;
+    left: 25%;
+    top: 25%;
 }
