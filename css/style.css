@@ -142,12 +142,52 @@ div.div-back:hover {
 
 div.srdce {
     width: 400px;
-    height: 400px;
+    height: 100%;
     background-image: url(../img/heart-304420_960_720.png);
     background-size: 300px 300px;
     background-repeat: no-repeat;
     background-position: center;
     animation-name: serce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+div.srdce,
+div.I,
+div.YOU {
+    display: inline-block;
+}
+
+div.I,
+div.YOU {
+    height: 100%;
+    font-size: 300px;
+    line-height: 400px;
+}
+
+div.heart-container {
+    width: 100vw;
+    height: 400px;    
+}
+
+@keyframes puls {
+    0%, 100% {
+        transform: scale(1,1);
+    }
+    
+    25%, 50% {
+        transform: scale(1,1);
+    }
+    
+    50% {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.serce {
+    color: red;
+    animation-name: puls;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
