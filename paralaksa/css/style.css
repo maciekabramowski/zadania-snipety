@@ -1,0 +1,22 @@
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-image: url(../img/obrazek.jpg);
+    
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner {
+    height: 1000px;
+    width: 100vw;
+    background-color: red;
+}
