@@ -49,6 +49,6 @@ div.gradient {
     width: 200px;
     height: 200px;
     background-color: #f00;
-   background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
