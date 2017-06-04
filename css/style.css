@@ -65,3 +65,12 @@ ul.custom-list li:before {
     padding-right: 5px;
 }
 
+/* Snip 6 placeholder color */
+
+form.snip6 input {
+    margin-bottom: 10px;
+}
+
+form.snip6 input::placeholder {
+    color: #f00;
+}
