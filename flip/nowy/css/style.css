@@ -1,0 +1,36 @@
+.cont {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.cont:hover {
+    transform: rotateY(180deg);
+    
+}
+
+.cont .front,
+.cont .back{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    font-size: 40px;
+    color: #fff;
+    line-height: 400px;
+    text-align: center;
+}
+
+.cont .front {
+    transform: rotateY(0deg);
+    background-color: red;
+}
+
+.cont .back {
+    transform: rotateY(180deg);
+    background-color: blue;
+}
