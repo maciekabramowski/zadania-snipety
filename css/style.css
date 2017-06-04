@@ -52,3 +52,16 @@ div.gradient {
    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
+/* Snip 5 custom font awesome list bullet */
+
+ul.custom-list li {
+    list-style: none;
+   padding-left: 5px;
+}
+
+ul.custom-list li:before {  
+    font-family: 'FontAwesome';
+    content: '\f2cd';
+    padding-right: 5px;
+}
+
