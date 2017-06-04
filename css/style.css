@@ -80,6 +80,10 @@ a[href$=".doc"]{
     color: #f00;
 }
 
+a[href$=".docx"]{
+    color: #0f0;
+}
+
 /* Snip8 quote marks */
 q {
     quotes: "\0022" "\0022";
@@ -98,4 +102,11 @@ blockquote:lang(en):before,
 blockquote:lang(en):after{
     content: '*';
 } 
+
+/* Snip9 fixed footer */
+footer.fixed-footer {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
 
