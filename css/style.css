@@ -43,3 +43,12 @@ button.info-button:focus {
     border: 4px solid #10ce7d;
 }
 
+/* Snip 3 gradient */
+
+div.gradient {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+   background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+}
+
