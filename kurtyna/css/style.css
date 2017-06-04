@@ -1,0 +1,66 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes kurtyna {
+    0% {
+        height: 0vh;
+    }
+/*
+     10% {
+        height: 5vh;
+    }
+     20% {
+        height: 10vh;
+    }
+     30% {
+        height: 15vh;
+    }
+     40% {
+        height: 20vh;
+    }
+     50% {
+        height: 25vh;
+    }
+     60% {
+        height: 30vh;
+    }
+     70% {
+        height: 35vh;
+    }
+     80% {
+        height: 40vh;
+    }
+     90% {
+        height: 45vh;
+    }
+*/
+     100% {
+        height: 50vh;
+    }
+}
+
+div.kurtyna1{
+  background-color: #0f0; 
+    width: 100vw;
+    height: 50vh;
+    animation-name: kurtyna;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    position: absolute;
+   top: 0;
+}
+
+div.kurtyna2{
+    background-color: #00f; 
+    width: 100vw;
+    height: 50vh;
+    animation-name: kurtyna;
+    animation-duration: 2s;
+     animation-iteration-count: 1;
+    animation-timing-function: ease;
+    position: absolute;
+    bottom: 0;
+}
